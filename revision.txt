@@ -1,0 +1,14 @@
+# CA3
+#include<stdio.h>
+#include<math.h>
+
+void fcfs(int noq, int qu[10], int st)
+{
+ int i,s=0;
+ for(i=0;i<noq;i++)
+ {
+  s=s+abs(st-qu[i]);
+  st=qu[i];
+  }
+ printf("\n Total seek time :%d",s);
+}
