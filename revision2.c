@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <time.h>
 int main()
 {
 int ts,spid[10],sneed[10],swt[10],stat[10],i,j,sn,sn1,fpid[10],fneed[10],fwt[10],ftat[10],fn,fn1;
